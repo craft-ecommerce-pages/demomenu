@@ -236,6 +236,36 @@
     }
     .nav-badge.show{transform:scale(1)}
 
+    /* ── LOCATION + RESERVATIONS ── */
+    body.location-view .sticky-bar,body.location-view .cart-peek{display:none}
+    .location-view-wrap{max-width:900px;margin:0 auto;padding:18px 20px 34px}
+    .location-heading{margin-bottom:18px}
+    .location-heading h2{font-size:clamp(24px,5vw,34px);font-weight:800;margin-bottom:5px}
+    .location-heading p{color:var(--text-soft);font-size:14px}
+    .location-layout{display:grid;grid-template-columns:1.08fr .92fr;gap:18px;align-items:start}
+    .location-card,.reservation-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+    .map-frame{width:100%;height:440px;border:0;display:block}
+    .reservation-card{padding:22px}
+    .reservation-card h3{font-size:20px;font-weight:800;margin-bottom:4px}
+    .reservation-intro{font-size:13px;color:var(--text-soft);margin-bottom:18px}
+    .reservation-form{display:flex;flex-direction:column;gap:13px}
+    .form-field{display:flex;flex-direction:column;gap:6px}
+    .form-field label{font-size:12px;font-weight:700;color:var(--text-soft)}
+    .form-field input,.form-field select{
+      width:100%;height:48px;padding:0 14px;border:1px solid var(--border);border-radius:13px;
+      background:var(--surface-2);color:var(--text);font:inherit;font-size:14px;outline:none;
+      transition:border-color .2s,background .2s;
+    }
+    .form-field input:focus,.form-field select:focus{border-color:var(--accent);background:rgba(255,255,255,.12)}
+    .form-field select option{background:var(--bg-2);color:var(--text)}
+    .btn-reservation{
+      width:100%;min-height:50px;margin-top:5px;padding:13px 16px;border:0;border-radius:14px;
+      background:var(--wa);color:#fff;font:inherit;font-size:14px;font-weight:700;cursor:pointer;
+      display:flex;align-items:center;justify-content:center;gap:9px;transition:transform .2s,filter .2s;
+    }
+    .btn-reservation:hover{transform:scale(1.01);filter:brightness(1.05)}
+    .btn-reservation svg{width:20px;height:20px;flex-shrink:0}
+
     /* ── CART BOTTOM SHEET ── */
     .cart-overlay{position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.55);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .3s}
     .cart-overlay.open{opacity:1;pointer-events:auto}
@@ -378,6 +408,12 @@
       .card-price{font-size:16px}
       .cat-header{font-size:18px;padding:0 16px}
     }
+    @media(max-width:760px){
+      .location-layout{grid-template-columns:1fr}
+      .map-frame{height:300px}
+      .location-view-wrap{padding:12px 14px 28px}
+      .reservation-card{padding:18px}
+    }
   </style>
 </head>
 
@@ -435,9 +471,9 @@
       Carrito
       <span class="nav-badge" id="navBadge">0</span>
     </button>
-    <button class="nav-item" data-nav="favs">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 10-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>
-      Favoritos
+    <button class="nav-item" data-nav="location">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1116 0z"/><circle cx="12" cy="10" r="2.5"/></svg>
+      Ubicación
     </button>
   </nav>
 
@@ -680,6 +716,7 @@
       $catalog.innerHTML=`<div class="cat-section"><h2 class="cat-header"><span class="em">${em}</span>${title}</h2><div class="grid">${list.map((p,i)=>cardHTML(p,i)).join('')}</div></div>`;
     }
     function renderCatalog(){
+      document.body.classList.remove('location-view');
       if(activeFilter==='__favs__'){
         setActiveChip(null);
         renderFlat(products.filter(p=>isFav(p.id)&&matchSearch(p)),'Tus Favoritos','❤️','No tienes favoritos aún.','Toca el ♡ en cualquier producto para guardarlo.');
@@ -711,6 +748,68 @@
       $catalog.innerHTML=html||`<div class="empty-state"><span class="em">🔍</span><p>No se encontraron productos</p></div>`;
       setActiveChip(activeFilter);
       setupIntersectionObserver();
+    }
+
+    function renderLocation(){
+      document.body.classList.add('location-view');
+      if(observer) observer.disconnect();
+      $catalog.innerHTML=`
+        <section class="location-view-wrap">
+          <div class="location-heading">
+            <h2>📍 Ubicación y reservas</h2>
+            <p>Visítanos o reserva tu mesa en el ambiente que prefieras.</p>
+          </div>
+          <div class="location-layout">
+            <div class="location-card">
+              <iframe class="map-frame" title="Ubicación de Casa Res Steak House"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7993796127007!2d-78.48790582424621!3d-0.17654669982171312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a859f2bf725%3A0x45e9525e67933d62!2sCasa%20Res%20%7C%20Steak%20House!5e0!3m2!1ses-419!2sec!4v1784835585999!5m2!1ses-419!2sec"
+                allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="reservation-card">
+              <h3>Reserva tu mesa</h3>
+              <p class="reservation-intro">Completa tus datos y envíanos la solicitud por WhatsApp.</p>
+              <form class="reservation-form" id="reservationForm">
+                <div class="form-field">
+                  <label for="reservationName">Nombre</label>
+                  <input id="reservationName" name="name" type="text" autocomplete="given-name" required placeholder="Tu nombre"/>
+                </div>
+                <div class="form-field">
+                  <label for="reservationLastName">Apellido</label>
+                  <input id="reservationLastName" name="lastName" type="text" autocomplete="family-name" required placeholder="Tu apellido"/>
+                </div>
+                <div class="form-field">
+                  <label for="reservationPhone">Número de teléfono</label>
+                  <input id="reservationPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="Ej. 099 123 4567"/>
+                </div>
+                <div class="form-field">
+                  <label for="reservationArea">¿En qué parte del restaurante prefieres estar?</label>
+                  <select id="reservationArea" name="area" required>
+                    <option value="" selected disabled>Selecciona una opción</option>
+                    <option value="Ventanas">Ventanas</option>
+                    <option value="Pérgola">Pérgola</option>
+                    <option value="Centro">Centro</option>
+                    <option value="Chimenea">Chimenea</option>
+                  </select>
+                </div>
+                <button class="btn-reservation" type="submit">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  Reservar por WhatsApp
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>`;
+      document.getElementById('reservationForm').addEventListener('submit',sendReservation);
+    }
+
+    function sendReservation(e){
+      e.preventDefault();
+      const num=(config.whatsapp_number||'').replace(/\D/g,'');
+      if(!num){showToast('WhatsApp no configurado');return;}
+      const form=new FormData(e.currentTarget);
+      const store=config.store_name||'el restaurante';
+      const msg=`¡Hola! Quiero solicitar una reserva en ${store}.\n\n*DATOS DE LA RESERVA*\n━━━━━━━━━━━━━━━━━\n*Nombre:* ${form.get('name')} ${form.get('lastName')}\n*Teléfono:* ${form.get('phone')}\n*Ubicación preferida:* ${form.get('area')}\n━━━━━━━━━━━━━━━━━\n\nQuedo pendiente de la confirmación. ¡Gracias!`;
+      window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`,'_blank');
     }
 
     function updateCardButtons(){
@@ -875,7 +974,7 @@
     /* ── BOTTOM NAV ── */
     function setActiveNav(name){document.querySelectorAll('.nav-item').forEach(n=>n.classList.toggle('active',n.dataset.nav===name));}
     function syncNavToFilter(){
-      setActiveNav(activeFilter==='__offers__'?'offers':activeFilter==='__favs__'?'favs':'home');
+      setActiveNav(activeFilter==='__offers__'?'offers':activeFilter==='__location__'?'location':'home');
     }
     function goTop(){window.scrollTo({top:0,behavior:'smooth'});}
     document.querySelector('.bottom-nav').addEventListener('click',e=>{
@@ -883,8 +982,10 @@
       const nav=item.dataset.nav;
       if(nav==='cart'){openCart();return;}
       searchQuery='';$searchInput.value='';
-      activeFilter=nav==='offers'?'__offers__':nav==='favs'?'__favs__':'all';
-      setActiveNav(nav);renderCatalog();goTop();
+      activeFilter=nav==='offers'?'__offers__':nav==='location'?'__location__':'all';
+      setActiveNav(nav);
+      if(nav==='location') renderLocation(); else renderCatalog();
+      goTop();
     });
     $cartPeek.addEventListener('click',openCart);
 
