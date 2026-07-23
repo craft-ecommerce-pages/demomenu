@@ -1,0 +1,17 @@
+{
+  "store_name": "La Esquina Burger",
+  "site_title": "La Esquina Burger – Hamburguesas & Más",
+  "whatsapp_number": "593963769671",
+  "whatsapp_message": "¡Hola! Quiero hacer un pedido:",
+  "currency": "$",
+  "theme_primary": "#E63946",
+  "theme_accent": "#F4A261",
+  "badge_category": "combos",
+  "categories": {
+    "hamburguesas": "Hamburguesas",
+    "pizzas": "Pizzas",
+    "acompañamientos": "Acompañamientos",
+    "bebidas": "Bebidas",
+    "combos": "Combos"
+  }
+}

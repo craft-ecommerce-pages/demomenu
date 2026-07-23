@@ -1,0 +1,133 @@
+[
+  {
+    "id": 101,
+    "slug": "hamburguesa-parrillera",
+    "nombre": "Hamburguesa Parrillera",
+    "precio": 7.99,
+    "precio_promo": "",
+    "categorias": ["hamburguesas"],
+    "descripcion": "Carne de res a la parrilla con queso cheddar, lechuga fresca, tomate y salsa BBQ artesanal. Acompañada de papas fritas.",
+    "stock": null,
+    "imagenes": [
+      "producto/hamburguesa-parrillera/images/hamburguesa-parrillera-1.webp"
+    ],
+    "variantes": [],
+    "sku": "BUR-001"
+  },
+  {
+    "id": 102,
+    "slug": "hamburguesa-bbq",
+    "nombre": "Hamburguesa BBQ Ranchera",
+    "precio": 8.49,
+    "precio_promo": "",
+    "categorias": ["hamburguesas"],
+    "descripcion": "Doble carne, aros de cebolla crujientes, queso americano y salsa ranchera ahumada. ¡Para los que vienen con hambre de verdad!",
+    "stock": 2,
+    "imagenes": [],
+    "variantes": [],
+    "sku": "BUR-002"
+  },
+  {
+    "id": 201,
+    "slug": "pizza-pepperoni",
+    "nombre": "Pizza Pepperoni Supreme",
+    "precio": 0,
+    "precio_promo": "",
+    "categorias": ["pizzas"],
+    "descripcion": "Pepperoni clásico con mozzarella fundida sobre salsa de tomate artesanal. Masa delgada y bordes crocantes.",
+    "stock": null,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {"label": "Personal (6 pedazos)", "price": 6.99},
+          {"label": "Mediana (8 pedazos)", "price": 9.99},
+          {"label": "Familiar (12 pedazos)", "price": 14.99}
+        ]
+      }
+    ],
+    "sku": "PIZ-001"
+  },
+  {
+    "id": 202,
+    "slug": "pizza-hawaiana",
+    "nombre": "Pizza Hawaiana Especial",
+    "precio": 0,
+    "precio_promo": "",
+    "categorias": ["pizzas"],
+    "descripcion": "Jamón ahumado, piña caramelizada y extra queso mozzarella. La combinación dulce-salado que conquista.",
+    "stock": 0,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {"label": "Personal (6 pedazos)", "price": 7.49},
+          {"label": "Mediana (8 pedazos)", "price": 10.99},
+          {"label": "Familiar (12 pedazos)", "price": 15.99}
+        ]
+      }
+    ],
+    "sku": "PIZ-002"
+  },
+  {
+    "id": 301,
+    "slug": "porcion-de-papas-fritas",
+    "nombre": "Porción de Papas Fritas",
+    "precio": 3.99,
+    "precio_promo": "",
+    "categorias": ["acompañamientos"],
+    "descripcion": "Papas fritas doradas y crujientes sazonadas con sal de mar y especias de la casa. El acompañamiento perfecto.",
+    "stock": null,
+    "imagenes": [
+      "producto/porcion-de-papas-fritas/images/porcion-de-papas-fritas-1.webp"
+    ],
+    "variantes": [],
+    "sku": "SID-001"
+  },
+  {
+    "id": 302,
+    "slug": "alitas-bbq",
+    "nombre": "Alitas BBQ (6 unidades)",
+    "precio": 6.99,
+    "precio_promo": "",
+    "categorias": ["acompañamientos"],
+    "descripcion": "Alitas de pollo bañadas en salsa BBQ ahumada con toque de miel. Servidas con aderezo ranch.",
+    "stock": null,
+    "imagenes": [],
+    "variantes": [],
+    "sku": "SID-002"
+  },
+  {
+    "id": 401,
+    "slug": "coca-cola",
+    "nombre": "Coca-Cola",
+    "precio": 2.49,
+    "precio_promo": "",
+    "categorias": ["bebidas"],
+    "descripcion": "Refrescante Coca-Cola bien fría. El complemento ideal para tu comida.",
+    "stock": null,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": ["Personal (355ml)", "Mediana (500ml)", "Grande (1L)"]
+      }
+    ],
+    "sku": "DRK-001"
+  },
+  {
+    "id": 501,
+    "slug": "combo-familiar",
+    "nombre": "Combo Familiar",
+    "precio": 22.99,
+    "precio_promo": "29.99",
+    "categorias": ["combos"],
+    "descripcion": "2 Hamburguesas Parrilleras + 1 Porción de Papas Grande + 2 Bebidas Medianas. ¡Ideal para compartir en familia!",
+    "stock": null,
+    "imagenes": [],
+    "variantes": [],
+    "sku": "CMB-001"
+  }
+]
