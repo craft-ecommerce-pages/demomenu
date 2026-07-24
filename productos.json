@@ -1,5 +1,20 @@
 [
   {
+    "id": "605e68ac-1365-4314-a4b9-508562525fc4",
+    "slug": "bandeja-de-pollo",
+    "nombre": "Bandeja de pollo",
+    "precio": "14.99",
+    "precio_promo": "",
+    "categorias": [
+      "platos_fuertes"
+    ],
+    "descripcion": "Presas de pollo a la parrilla doradas y jugosas, con papas fritas, ensalada fresca y nuestras salsas. Porción generosa.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "aa4b415e-8480-4216-bc5f-ec02a410777e",
     "slug": "bandeja-parrilera",
     "nombre": "Bandeja Parrilera",
