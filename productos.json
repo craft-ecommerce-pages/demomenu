@@ -5,7 +5,9 @@
     "nombre": "Bandeja Parrilera",
     "precio": "24.99",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "platos_fuertes"
+    ],
     "descripcion": "Chorizo, carne de res, cerdo y pollo a la parrilla, acompañados de papas fritas, ensalada fresca y salsas de la casa. Para compartir (o no).",
     "stock": null,
     "imagenes": null,
@@ -31,7 +33,9 @@
     "nombre": "Taco de carne",
     "precio": "6.50",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "platos_fuertes"
+    ],
     "descripcion": "Tortilla rellena de carne asada bien sazonada, con su toque de frescura y salsas. Ideal para comer con las manos.",
     "stock": null,
     "imagenes": null,
