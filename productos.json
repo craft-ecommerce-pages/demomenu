@@ -90,7 +90,9 @@
     "nombre": "Gaseosa",
     "precio": "1.50",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "bebidas"
+    ],
     "descripcion": "Bebida bien fría para acompañar tu pedido. Elige entre Coca-Cola, Fanta o Sprite.",
     "stock": null,
     "imagenes": [
