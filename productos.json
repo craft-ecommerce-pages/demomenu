@@ -39,7 +39,9 @@
     "nombre": "Hamburguesa Clásica",
     "precio": "8.99",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "hamburguesas"
+    ],
     "descripcion": "Carne jugosa a la parrilla con queso derretido, tomate fresco, cebolla y pickles en pan suave. El clásico que nunca falla.",
     "stock": null,
     "imagenes": [
