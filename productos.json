@@ -128,6 +128,23 @@
     "sku": ""
   },
   {
+    "id": "46a0240d-a01d-4ce6-b18f-25d569257a6a",
+    "slug": "limonada-de-frutos-rojos",
+    "nombre": "Limonada de frutos rojos",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Limonada natural con frutos rojos, refrescante y con ese toque ácido-dulce que engancha.",
+    "stock": null,
+    "imagenes": [
+      "/producto/limonada-de-frutos-rojos/images/limonada-de-frutos-rojos-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "64573b91-682c-4653-84c1-67f537136134",
     "slug": "limonada-natural",
     "nombre": "Limonada Natural",
