@@ -128,6 +128,23 @@
     "sku": ""
   },
   {
+    "id": "64573b91-682c-4653-84c1-67f537136134",
+    "slug": "limonada-natural",
+    "nombre": "Limonada Natural",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Limonada recién preparada, fresca y en su punto de dulzor. El clásico refrescante.",
+    "stock": null,
+    "imagenes": [
+      "/producto/limonada-natural/images/limonada-natural-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "a8ce9382-e974-40f5-acb4-0aa2fc49b753",
     "slug": "taco-de-carne",
     "nombre": "Taco de carne",
