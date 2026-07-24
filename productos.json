@@ -10,7 +10,9 @@
     ],
     "descripcion": "Presas de pollo a la parrilla doradas y jugosas, con papas fritas, ensalada fresca y nuestras salsas. Porción generosa.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/bandeja-de-pollo/images/bandeja-de-pollo-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -25,7 +27,9 @@
     ],
     "descripcion": "Chorizo, carne de res, cerdo y pollo a la parrilla, acompañados de papas fritas, ensalada fresca y salsas de la casa. Para compartir (o no).",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/bandeja-parrilera/images/bandeja-parrilera-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -38,7 +42,9 @@
     "categorias": [],
     "descripcion": "Carne jugosa a la parrilla con queso derretido, tomate fresco, cebolla y pickles en pan suave. El clásico que nunca falla.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/hamburguesa-clasica/images/hamburguesa-clasica-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -53,7 +59,9 @@
     ],
     "descripcion": "Tortilla rellena de carne asada bien sazonada, con su toque de frescura y salsas. Ideal para comer con las manos.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/taco-de-carne/images/taco-de-carne-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   }
