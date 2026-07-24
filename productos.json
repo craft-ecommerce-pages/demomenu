@@ -71,7 +71,9 @@
     "nombre": "Costillas BBQ",
     "precio": "15",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "platos_fuertes"
+    ],
     "descripcion": "Costillas de cerdo cocidas lento y bañadas en salsa barbecue, tiernas y ahumadas. Se desprenden del hueso.",
     "stock": null,
     "imagenes": [
