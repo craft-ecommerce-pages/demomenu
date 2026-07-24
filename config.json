@@ -1,6 +1,8 @@
 {
   "badge_category": "combos",
   "categories": {
+    "hamburguesas": "Hamburguesas",
+    "mexicana": "Mexicana",
     "platos_fuertes": "Platos fuertes"
   },
   "currency": "$",
