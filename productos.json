@@ -56,7 +56,9 @@
     "nombre": "Choclo asado",
     "precio": "2",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "extras"
+    ],
     "descripcion": "Choclo tierno asado al carbón, dorado y ahumado. El acompañante perfecto para tu parrillada.",
     "stock": null,
     "imagenes": [
