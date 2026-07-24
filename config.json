@@ -1,6 +1,7 @@
 {
   "badge_category": "combos",
   "categories": {
+    "extras": "Extras",
     "hamburguesas": "Hamburguesas",
     "mexicana": "Mexicana",
     "platos_fuertes": "Platos fuertes"

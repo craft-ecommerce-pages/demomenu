@@ -34,6 +34,21 @@
     "sku": ""
   },
   {
+    "id": "2f2454f7-e9b4-4ae5-81be-e9c276313536",
+    "slug": "choclo-asado",
+    "nombre": "Choclo asado",
+    "precio": "2",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Choclo tierno asado al carbón, dorado y ahumado. El acompañante perfecto para tu parrillada.",
+    "stock": null,
+    "imagenes": [
+      "/producto/choclo-asado/images/choclo-asado-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "5c9ab1d4-e63c-4687-b20e-d730b112f371",
     "slug": "hamburguesa-clasica",
     "nombre": "Hamburguesa Clásica",
