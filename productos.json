@@ -66,6 +66,21 @@
     "sku": ""
   },
   {
+    "id": "ae2de91c-3ec6-469b-a4a3-646a9624e1f2",
+    "slug": "costillas-bbq",
+    "nombre": "Costillas BBQ",
+    "precio": "15",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Costillas de cerdo cocidas lento y bañadas en salsa barbecue, tiernas y ahumadas. Se desprenden del hueso.",
+    "stock": null,
+    "imagenes": [
+      "/producto/costillas-bbq/images/costillas-bbq-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "5c9ab1d4-e63c-4687-b20e-d730b112f371",
     "slug": "hamburguesa-clasica",
     "nombre": "Hamburguesa Clásica",
