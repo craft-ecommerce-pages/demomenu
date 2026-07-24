@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "aa4b415e-8480-4216-bc5f-ec02a410777e",
+    "slug": "bandeja-parrilera",
+    "nombre": "Bandeja Parrilera",
+    "precio": "24.99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Chorizo, carne de res, cerdo y pollo a la parrilla, acompañados de papas fritas, ensalada fresca y salsas de la casa. Para compartir (o no).",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "5c9ab1d4-e63c-4687-b20e-d730b112f371",
+    "slug": "hamburguesa-clasica",
+    "nombre": "Hamburguesa Clásica",
+    "precio": "8.99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Carne jugosa a la parrilla con queso derretido, tomate fresco, cebolla y pickles en pan suave. El clásico que nunca falla.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "a8ce9382-e974-40f5-acb4-0aa2fc49b753",
+    "slug": "taco-de-carne",
+    "nombre": "Taco de carne",
+    "precio": "6.50",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Tortilla rellena de carne asada bien sazonada, con su toque de frescura y salsas. Ideal para comer con las manos.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  }
+]

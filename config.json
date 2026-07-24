@@ -1,6 +1,8 @@
 {
   "badge_category": "combos",
-  "categories": {},
+  "categories": {
+    "platos_fuertes": "Platos fuertes"
+  },
   "currency": "$",
   "site_title": "La Esquina Burger – Hamburguesas \u0026 Más",
   "store_name": "La Esquina Burger",
