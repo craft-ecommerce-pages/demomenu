@@ -34,6 +34,23 @@
     "sku": ""
   },
   {
+    "id": "4adae141-01e7-49ef-9783-5640eff09ef9",
+    "slug": "brocheta-vegana",
+    "nombre": "Brocheta Vegana",
+    "precio": "3.50",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Vegetales frescos marinados y asados a la parrilla. Opción 100% vegana, llena de sabor y sin culpa",
+    "stock": null,
+    "imagenes": [
+      "/producto/brocheta-vegana/images/brocheta-vegana-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "2f2454f7-e9b4-4ae5-81be-e9c276313536",
     "slug": "choclo-asado",
     "nombre": "Choclo asado",
