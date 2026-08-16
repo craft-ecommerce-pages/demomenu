@@ -4,7 +4,19 @@ Menú digital para **Las Hamburguesas del Gordo Paul** (smash burgers artesanale
 
 ## Tecnología
 
-Mismo stack que pizza-planet: HTML/CSS/JS vanilla, sin build. `index.html` + `config.json` + `productos.json` + `app.js` + `style.css`.
+Mismo stack que pizza-planet: HTML/CSS/JS vanilla, sin build.
+
+```
+index.html          # UI
+config.json         # config tienda (tema, whatsapp, mapa, category_order) — sync solo pisa `categories`
+productos.json      # generado por catalogsync (no editar a mano)
+assets/app.js       # lógica
+assets/style.css    # estilos
+media/logo.webp     # logo (fondo transparente, 1:1 ~800×800) — lo sube el cliente
+media/favicon.png   # favicon — lo sube el cliente
+```
+
+Imágenes de productos: las mapea catalogsync en el push (no se versionan a mano).
 
 ## Fuente de verdad de los productos
 
