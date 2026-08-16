@@ -25,7 +25,9 @@
     ],
     "descripcion": "Carne 100% de res, tocino crujiente y queso cheddar fundido, coronada con vegetales frescos y nuestra salsa secreta. Abundante, jugosa y adictiva de principio a fin.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/bacon-deluxe/images/bacon-deluxe-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -33,21 +35,24 @@
           "Simple",
           "Doble (+$1.50)",
           "Triple (+$3.00)"
-        ]
+        ],
+        "type": "option"
       },
       {
         "name": "Vegetales",
         "options": [
           "Con vegetales (lechuga, tomate y cebolla)",
           "Sin vegetales"
-        ]
+        ],
+        "type": "option"
       },
       {
         "name": "Acompañamiento",
         "options": [
           "Sola",
           "Combo · papas + cola (+$2.50)"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": "GP-B4"
