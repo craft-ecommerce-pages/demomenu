@@ -141,9 +141,17 @@
     const cartTotalPrice=()=>cartItems.reduce((s,i)=>s+i.precio*i.qty,0);
 
     /* ── CATEGORY STRIP ── */
+    // Orden: config.category_order primero (el sync lo preserva), luego el resto. El sync
+    // regenera config.categories alfabéticamente, así que sin esto Extras saldría antes.
+    function orderedCategorySlugs(){
+      const catMap=config.categories||{};
+      const pref=Array.isArray(config.category_order)?config.category_order:[];
+      const rest=Object.keys(catMap).filter(s=>!pref.includes(s));
+      return [...pref.filter(s=>s in catMap),...rest];
+    }
     function buildCatStrip(){
       const catMap=config.categories||{};
-      categorySlugs=Object.keys(catMap);
+      categorySlugs=orderedCategorySlugs();
       let html=`<button class="cat-chip active" data-cat="all"><span class="ic">🔥</span><span class="lb">Todo</span></button>`;
       categorySlugs.forEach(slug=>{
         const name=catMap[slug]||slug;
