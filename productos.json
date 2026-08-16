@@ -136,7 +136,9 @@
     ],
     "descripcion": "Champiñones salteados en mantequilla, queso cheddar fundido y un toque cremoso de mayonesa sobre carne 100% de res, con vegetales frescos. Una explosión umami imposible de resistir.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/mushroom/images/mushroom-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -144,21 +146,24 @@
           "Simple",
           "Doble (+$1.50)",
           "Triple (+$3.00)"
-        ]
+        ],
+        "type": "option"
       },
       {
         "name": "Vegetales",
         "options": [
           "Con vegetales (lechuga, tomate y cebolla)",
           "Sin vegetales"
-        ]
+        ],
+        "type": "option"
       },
       {
         "name": "Acompañamiento",
         "options": [
           "Sola",
           "Combo · papas + cola (+$2.50)"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": "GP-B5"
