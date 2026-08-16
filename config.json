@@ -6,7 +6,10 @@
     "extras": "➕ Extras",
     "hamburguesas": "🍔 Nuestras Hamburguesas"
   },
-  "category_order": ["hamburguesas", "extras"],
+  "category_order": [
+    "hamburguesas",
+    "extras"
+  ],
   "currency": "$",
   "hero_title": "Grandes en tamaño, \u003cspan class=\"hl\"\u003eenormes en sabor\u003c/span\u003e 🍔",
   "location": {

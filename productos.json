@@ -93,7 +93,9 @@
     ],
     "descripcion": "La original llevada al siguiente nivel: queso cheddar que se derrite sobre la carne caliente, vegetales frescos y salsa secreta de la casa. Jugosa, fundente y perfectamente balanceada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/classic-cheese/images/classic-cheese-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -101,21 +103,24 @@
           "Simple",
           "Doble (+$1.50)",
           "Triple (+$3.00)"
-        ]
+        ],
+        "type": "option"
       },
       {
         "name": "Vegetales",
         "options": [
           "Con vegetales (lechuga, tomate y cebolla)",
           "Sin vegetales"
-        ]
+        ],
+        "type": "option"
       },
       {
         "name": "Acompañamiento",
         "options": [
           "Sola",
           "Combo · papas + cola (+$2.50)"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": "GP-B2"
