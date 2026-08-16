@@ -1,1 +1,260 @@
-[]
+[
+  {
+    "id": "92992fd3-ea6c-4023-a2b6-ce405fc35e83",
+    "slug": "aros-de-cebolla",
+    "nombre": "Aros de cebolla",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Crocantes aros de cebolla dorados al punto.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": "GP-E5"
+  },
+  {
+    "id": "5f9d1191-eef6-4d49-9590-8a121ae32da7",
+    "slug": "bacon-deluxe",
+    "nombre": "Bacon Deluxe",
+    "precio": "6.50",
+    "precio_promo": "",
+    "categorias": [
+      "hamburguesas"
+    ],
+    "descripcion": "Carne 100% de res, tocino crujiente y queso cheddar fundido, coronada con vegetales frescos y nuestra salsa secreta. Abundante, jugosa y adictiva de principio a fin.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Simple",
+          "Doble (+$1.50)",
+          "Triple (+$3.00)"
+        ]
+      },
+      {
+        "name": "Vegetales",
+        "options": [
+          "Con vegetales (lechuga, tomate y cebolla)",
+          "Sin vegetales"
+        ]
+      },
+      {
+        "name": "Acompañamiento",
+        "options": [
+          "Sola",
+          "Combo · papas + cola (+$2.50)"
+        ]
+      }
+    ],
+    "sku": "GP-B4"
+  },
+  {
+    "id": "b1b3c672-b6d9-4329-a30a-77a43634bcbf",
+    "slug": "carne-adicional-200-g",
+    "nombre": "Carne adicional (200 g)",
+    "precio": "2.00",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Súmale 200 g extra de carne 100% de res y convierte tu antojo en un verdadero festín.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": "GP-E1"
+  },
+  {
+    "id": "bbb88ec5-7cdd-464f-926a-e200841ec351",
+    "slug": "champinones",
+    "nombre": "Champiñones",
+    "precio": "1.00",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Champiñones frescos salteados en mantequilla.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": "GP-E4"
+  },
+  {
+    "id": "79eb35b5-e2cb-4ddb-b093-8551782412fd",
+    "slug": "classic-cheese",
+    "nombre": "Classic Cheese",
+    "precio": "5.50",
+    "precio_promo": "",
+    "categorias": [
+      "hamburguesas"
+    ],
+    "descripcion": "La original llevada al siguiente nivel: queso cheddar que se derrite sobre la carne caliente, vegetales frescos y salsa secreta de la casa. Jugosa, fundente y perfectamente balanceada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Simple",
+          "Doble (+$1.50)",
+          "Triple (+$3.00)"
+        ]
+      },
+      {
+        "name": "Vegetales",
+        "options": [
+          "Con vegetales (lechuga, tomate y cebolla)",
+          "Sin vegetales"
+        ]
+      },
+      {
+        "name": "Acompañamiento",
+        "options": [
+          "Sola",
+          "Combo · papas + cola (+$2.50)"
+        ]
+      }
+    ],
+    "sku": "GP-B2"
+  },
+  {
+    "id": "a4b29b23-5573-4403-b328-daa1c1e92ec9",
+    "slug": "mushroom",
+    "nombre": "Mushroom",
+    "precio": "6.00",
+    "precio_promo": "",
+    "categorias": [
+      "hamburguesas"
+    ],
+    "descripcion": "Champiñones salteados en mantequilla, queso cheddar fundido y un toque cremoso de mayonesa sobre carne 100% de res, con vegetales frescos. Una explosión umami imposible de resistir.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Simple",
+          "Doble (+$1.50)",
+          "Triple (+$3.00)"
+        ]
+      },
+      {
+        "name": "Vegetales",
+        "options": [
+          "Con vegetales (lechuga, tomate y cebolla)",
+          "Sin vegetales"
+        ]
+      },
+      {
+        "name": "Acompañamiento",
+        "options": [
+          "Sola",
+          "Combo · papas + cola (+$2.50)"
+        ]
+      }
+    ],
+    "sku": "GP-B5"
+  },
+  {
+    "id": "fa2d44d7-5e30-4781-a382-fb8ec972a7e2",
+    "slug": "original-classic",
+    "nombre": "Original Classic",
+    "precio": "5.00",
+    "precio_promo": "",
+    "categorias": [
+      "hamburguesas"
+    ],
+    "descripcion": "Nuestra smash burger insignia: carne 100% de res prensada al sartén para un dorado crocante e irresistible, coronada con vegetales frescos y un toque de nuestra salsa secreta de la casa. El clásico que nunca falla.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Simple",
+          "Doble (+$1.50)",
+          "Triple (+$3.00)"
+        ]
+      },
+      {
+        "name": "Vegetales",
+        "options": [
+          "Con vegetales (lechuga, tomate y cebolla)",
+          "Sin vegetales"
+        ]
+      },
+      {
+        "name": "Acompañamiento",
+        "options": [
+          "Sola",
+          "Combo · papas + cola (+$2.50)"
+        ]
+      }
+    ],
+    "sku": "GP-B1"
+  },
+  {
+    "id": "a99955c9-2521-4b69-9259-d449c5b0bef2",
+    "slug": "queso-cheddar",
+    "nombre": "Queso cheddar",
+    "precio": "0.75",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Una lonja extra de queso cheddar fundido para más cremosidad.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": "GP-E2"
+  },
+  {
+    "id": "7fd87331-9434-41dc-990f-3ef9718d26c9",
+    "slug": "tocino",
+    "nombre": "Tocino",
+    "precio": "1.25",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Porción extra de tocino crujiente y ahumado.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": "GP-E3"
+  },
+  {
+    "id": "86deba62-7562-4ad5-a36c-89c79adb48d5",
+    "slug": "western-bacon",
+    "nombre": "Western Bacon",
+    "precio": "6.50",
+    "precio_promo": "",
+    "categorias": [
+      "hamburguesas"
+    ],
+    "descripcion": "Intensa y ahumada: tocino crujiente, queso cheddar fundido, crocantes aros de cebolla y salsa BBQ que caramelizan cada mordida. Para los que buscan sabor sin límites.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Simple",
+          "Doble (+$1.50)",
+          "Triple (+$3.00)"
+        ]
+      },
+      {
+        "name": "Acompañamiento",
+        "options": [
+          "Sola",
+          "Combo · papas + cola (+$2.50)"
+        ]
+      }
+    ],
+    "sku": "GP-B3"
+  }
+]
