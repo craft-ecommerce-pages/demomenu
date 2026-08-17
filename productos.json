@@ -179,6 +179,53 @@
     "sku": ""
   },
   {
+    "id": "55987ed9-7dde-4835-93d3-d57ec9bb9851",
+    "slug": "mexicana",
+    "nombre": "Mexicana",
+    "precio": "7",
+    "precio_promo": "",
+    "categorias": [
+      "hamburguesas"
+    ],
+    "descripcion": "",
+    "stock": null,
+    "imagenes": [
+      "/producto/mexicana/images/mexicana-1.webp",
+      "/producto/mexicana/images/mexicana-2.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Simple",
+          "Doble (+$1.50)",
+          "Triple (+$3.00)"
+        ],
+        "type": "option"
+      },
+      {
+        "name": "Vegetales",
+        "options": [
+          "Con vegetales (lechuga, tomate y cebolla)",
+          "Sin vegetales"
+        ],
+        "type": "option"
+      },
+      {
+        "name": "Acompañamiento",
+        "options": [
+          "Sola",
+          {
+            "image": "/producto/mexicana/images/mexicana-2.webp",
+            "label": "Combo · papas + cola (+$2.50)"
+          }
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "a4b29b23-5573-4403-b328-daa1c1e92ec9",
     "slug": "mushroom",
     "nombre": "Mushroom",
