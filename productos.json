@@ -223,6 +223,23 @@
     "sku": "GP-B1"
   },
   {
+    "id": "b33de599-bd28-49cc-a880-eb3430fadb47",
+    "slug": "papas-con-carne",
+    "nombre": "Papas con carne",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Papas fritas crujientes y doradas, cubiertas con abundante carne jugosa sazonada a la perfección. La combinación ideal para los amantes de la buena comida.",
+    "stock": null,
+    "imagenes": [
+      "/producto/papas-con-carne/images/papas-con-carne-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "a99955c9-2521-4b69-9259-d449c5b0bef2",
     "slug": "queso-cheddar",
     "nombre": "Queso cheddar",
