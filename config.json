@@ -3,6 +3,7 @@
   "catalog_notify_token": "",
   "catalog_notify_url": "",
   "categories": {
+    "bebidas": "🥤 Bebidas",
     "extras": "➕ Extras",
     "hamburguesas": "🍔 Nuestras Hamburguesas"
   },
