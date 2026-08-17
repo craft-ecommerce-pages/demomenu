@@ -240,6 +240,23 @@
     "sku": ""
   },
   {
+    "id": "2c3dec44-ce84-458e-9afd-f9e0164b7c1a",
+    "slug": "papas-con-queso-chedar",
+    "nombre": "Papas con queso Chedar",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Porción generosa de papas crujientes bañadas en una cremosa y calientita salsa de queso cheddar. ¡Simplemente irresistibles!",
+    "stock": null,
+    "imagenes": [
+      "/producto/papas-con-queso-chedar/images/papas-con-queso-chedar-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "a99955c9-2521-4b69-9259-d449c5b0bef2",
     "slug": "queso-cheddar",
     "nombre": "Queso cheddar",
