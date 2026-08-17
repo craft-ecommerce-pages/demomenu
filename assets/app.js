@@ -447,7 +447,11 @@
         btn.addEventListener('click',()=>{
           const idx=+btn.dataset.groupIdx,opt=btn.dataset.opt;
           if(modalVariants[idx]===opt) delete modalVariants[idx];
-          else modalVariants[idx]=opt;
+          else{
+            modalVariants[idx]=opt;
+            const _o=((modalProduct.variantes[idx]||{}).options||[]).find(o=>getOptionKey(o)===opt);
+            if(_o&&_o.image){const _i=sliderImages.indexOf(_o.image);if(_i>=0)slideTo(_i);}
+          }
           renderModalDetail();
         });
       });
