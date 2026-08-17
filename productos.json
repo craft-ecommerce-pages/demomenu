@@ -154,6 +154,23 @@
     "sku": ""
   },
   {
+    "id": "b33de599-bd28-49cc-a880-eb3430fadb47",
+    "slug": "gordo-chili-cheese-fries",
+    "nombre": "Gordo Chili Cheese Fries 🌶️🧀🍟",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "extras"
+    ],
+    "descripcion": "Papas fritas crujientes y doradas, cubiertas con abundante carne jugosa sazonada a la perfección. La combinación ideal para los amantes de la buena comida.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gordo-chili-cheese-fries/images/gordo-chili-cheese-fries-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "a4b29b23-5573-4403-b328-daa1c1e92ec9",
     "slug": "mushroom",
     "nombre": "Mushroom",
@@ -238,23 +255,6 @@
       }
     ],
     "sku": "GP-B1"
-  },
-  {
-    "id": "b33de599-bd28-49cc-a880-eb3430fadb47",
-    "slug": "papas-con-carne",
-    "nombre": "Papas con carne",
-    "precio": "2.50",
-    "precio_promo": "",
-    "categorias": [
-      "extras"
-    ],
-    "descripcion": "Papas fritas crujientes y doradas, cubiertas con abundante carne jugosa sazonada a la perfección. La combinación ideal para los amantes de la buena comida.",
-    "stock": null,
-    "imagenes": [
-      "/producto/papas-con-carne/images/papas-con-carne-1.webp"
-    ],
-    "variantes": [],
-    "sku": ""
   },
   {
     "id": "8c7f0877-b515-4ee0-b20f-e832fd2de1db",
