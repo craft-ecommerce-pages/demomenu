@@ -85,7 +85,9 @@
     ],
     "descripcion": "Champiñones frescos salteados en mantequilla.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/champinones/images/champinones-1.webp"
+    ],
     "variantes": [],
     "sku": "GP-E4"
   },
