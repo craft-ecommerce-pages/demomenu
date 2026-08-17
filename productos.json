@@ -10,7 +10,9 @@
     ],
     "descripcion": "Crocantes aros de cebolla dorados al punto.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/aros-de-cebolla/images/aros-de-cebolla-1.webp"
+    ],
     "variantes": [],
     "sku": "GP-E5"
   },
