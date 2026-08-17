@@ -109,7 +109,8 @@
     "descripcion": "La original llevada al siguiente nivel: queso cheddar que se derrite sobre la carne caliente, vegetales frescos y salsa secreta de la casa. Jugosa, fundente y perfectamente balanceada.",
     "stock": null,
     "imagenes": [
-      "/producto/classic-cheese/images/classic-cheese-1.webp"
+      "/producto/classic-cheese/images/classic-cheese-1.webp",
+      "/producto/classic-cheese/images/classic-cheese-2.webp"
     ],
     "variantes": [
       {
@@ -133,7 +134,10 @@
         "name": "Acompañamiento",
         "options": [
           "Sola",
-          "Combo · papas + cola (+$2.50)"
+          {
+            "image": "/producto/classic-cheese/images/classic-cheese-2.webp",
+            "label": "Combo · papas + cola (+$2.50)"
+          }
         ],
         "type": "option"
       }
