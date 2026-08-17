@@ -231,7 +231,9 @@
     ],
     "descripcion": "Una lonja extra de queso cheddar fundido para más cremosidad.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/queso-cheddar/images/queso-cheddar-1.webp"
+    ],
     "variantes": [],
     "sku": "GP-E2"
   },
