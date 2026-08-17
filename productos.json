@@ -257,6 +257,21 @@
     "sku": ""
   },
   {
+    "id": "8c7f0877-b515-4ee0-b20f-e832fd2de1db",
+    "slug": "porcion-de-papas",
+    "nombre": "Porción de papas",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Nuestras clásicas papas doraditas por fuera, suaves por dentro y con el toque justo de sal. El acompañamiento perfecto para cualquier ocasión.",
+    "stock": null,
+    "imagenes": [
+      "/producto/porcion-de-papas/images/porcion-de-papas-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "a99955c9-2521-4b69-9259-d449c5b0bef2",
     "slug": "queso-cheddar",
     "nombre": "Queso cheddar",
