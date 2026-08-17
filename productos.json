@@ -28,7 +28,8 @@
     "descripcion": "Carne 100% de res, tocino crujiente y queso cheddar fundido, coronada con vegetales frescos y nuestra salsa secreta. Abundante, jugosa y adictiva de principio a fin.",
     "stock": null,
     "imagenes": [
-      "/producto/bacon-deluxe/images/bacon-deluxe-1.webp"
+      "/producto/bacon-deluxe/images/bacon-deluxe-1.webp",
+      "/producto/bacon-deluxe/images/bacon-deluxe-2.webp"
     ],
     "variantes": [
       {
@@ -52,7 +53,10 @@
         "name": "Acompañamiento",
         "options": [
           "Sola",
-          "Combo · papas + cola (+$2.50)"
+          {
+            "image": "/producto/bacon-deluxe/images/bacon-deluxe-2.webp",
+            "label": "Combo · papas + cola (+$2.50)"
+          }
         ],
         "type": "option"
       }
