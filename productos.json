@@ -70,7 +70,9 @@
     ],
     "descripcion": "Súmale 200 g extra de carne 100% de res y convierte tu antojo en un verdadero festín.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/carne-adicional-200-g/images/carne-adicional-200-g-1.webp"
+    ],
     "variantes": [],
     "sku": "GP-E1"
   },
