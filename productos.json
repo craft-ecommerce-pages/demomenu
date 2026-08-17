@@ -246,7 +246,9 @@
     ],
     "descripcion": "Porción extra de tocino crujiente y ahumado.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/tocino/images/tocino-1.webp"
+    ],
     "variantes": [],
     "sku": "GP-E3"
   },
