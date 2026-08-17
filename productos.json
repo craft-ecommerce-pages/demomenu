@@ -64,6 +64,34 @@
     "sku": "GP-B4"
   },
   {
+    "id": "2d422a6e-86bb-42a0-91d2-0671bd97ba68",
+    "slug": "bebida-personal-a-eleccion",
+    "nombre": "Bebida personal a elección",
+    "precio": "0.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Bebida personal a elección",
+    "stock": null,
+    "imagenes": [
+      "/producto/bebida-personal-a-eleccion/images/bebida-personal-a-eleccion-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Coca Cola",
+          "Fanta",
+          "Sprite",
+          "Coca cola Zero"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "b1b3c672-b6d9-4329-a30a-77a43634bcbf",
     "slug": "carne-adicional-200-g",
     "nombre": "Carne adicional (200 g)",
