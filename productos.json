@@ -182,7 +182,8 @@
     "descripcion": "Champiñones salteados en mantequilla, queso cheddar fundido y un toque cremoso de mayonesa sobre carne 100% de res, con vegetales frescos. Una explosión umami imposible de resistir.",
     "stock": null,
     "imagenes": [
-      "/producto/mushroom/images/mushroom-1.webp"
+      "/producto/mushroom/images/mushroom-1.webp",
+      "/producto/mushroom/images/mushroom-2.webp"
     ],
     "variantes": [
       {
@@ -206,7 +207,10 @@
         "name": "Acompañamiento",
         "options": [
           "Sola",
-          "Combo · papas + cola (+$2.50)"
+          {
+            "image": "/producto/mushroom/images/mushroom-2.webp",
+            "label": "Combo · papas + cola (+$2.50)"
+          }
         ],
         "type": "option"
       }
