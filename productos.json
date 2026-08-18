@@ -1,5 +1,21 @@
 [
   {
+    "id": "839d09ac-6e34-424f-b31b-fc715e88bb55",
+    "slug": "3-x-2-en-hamburguesas",
+    "nombre": "3 x 2 en hamburguesas",
+    "tipo": "promocion",
+    "precio": "15",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "3 x 2 en hamburguesas",
+    "stock": null,
+    "imagenes": [
+      "/producto/3-x-2-en-hamburguesas/images/3-x-2-en-hamburguesas-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "92992fd3-ea6c-4023-a2b6-ce405fc35e83",
     "slug": "aros-de-cebolla",
     "nombre": "Aros de cebolla",
