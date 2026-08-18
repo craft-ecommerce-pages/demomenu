@@ -336,7 +336,10 @@
       {
         "name": "Acompañamiento",
         "options": [
-          "Sola",
+          {
+            "image": "/producto/original-classic/images/original-classic-1.webp",
+            "label": "Sola"
+          },
           {
             "image": "/producto/original-classic/images/original-classic-2.webp",
             "label": "Combo · papas + cola (+$2.50)"
