@@ -242,7 +242,10 @@
       {
         "name": "Acompañamiento",
         "options": [
-          "Sola",
+          {
+            "image": "/producto/mexicana/images/mexicana-1.webp",
+            "label": "Sola"
+          },
           {
             "image": "/producto/mexicana/images/mexicana-2.webp",
             "label": "Combo · papas + cola (+$2.50)"
