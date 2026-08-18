@@ -3,7 +3,7 @@
     "id": "92992fd3-ea6c-4023-a2b6-ce405fc35e83",
     "slug": "aros-de-cebolla",
     "nombre": "Aros de cebolla",
-    "precio": "1.50",
+    "precio": "0.99",
     "precio_promo": "",
     "categorias": [
       "extras"
@@ -20,7 +20,7 @@
     "id": "5f9d1191-eef6-4d49-9590-8a121ae32da7",
     "slug": "bacon-deluxe",
     "nombre": "Bacon Deluxe",
-    "precio": "6.50",
+    "precio": "4.99",
     "precio_promo": "",
     "categorias": [
       "hamburguesas"
@@ -36,8 +36,8 @@
         "name": "Presentación",
         "options": [
           "Simple",
-          "Doble (+$1.50)",
-          "Triple (+$3.00)"
+          "Doble (+$3.00)",
+          "Triple (+$5.00)"
         ],
         "type": "option"
       },
@@ -67,7 +67,7 @@
     "id": "2d422a6e-86bb-42a0-91d2-0671bd97ba68",
     "slug": "bebida-personal-a-eleccion",
     "nombre": "Bebida personal a elección",
-    "precio": "0.50",
+    "precio": "0.75",
     "precio_promo": "",
     "categorias": [
       "bebidas"
@@ -112,7 +112,7 @@
     "id": "bbb88ec5-7cdd-464f-926a-e200841ec351",
     "slug": "champinones",
     "nombre": "Champiñones",
-    "precio": "1.00",
+    "precio": "0.99",
     "precio_promo": "",
     "categorias": [
       "extras"
@@ -129,7 +129,7 @@
     "id": "79eb35b5-e2cb-4ddb-b093-8551782412fd",
     "slug": "classic-cheese",
     "nombre": "Classic Cheese",
-    "precio": "5.50",
+    "precio": "3.99",
     "precio_promo": "",
     "categorias": [
       "hamburguesas"
@@ -145,8 +145,8 @@
         "name": "Presentación",
         "options": [
           "Simple",
-          "Doble (+$1.50)",
-          "Triple (+$3.00)"
+          "Doble (+$3.00)",
+          "Triple (+$5.00)"
         ],
         "type": "option"
       },
@@ -210,7 +210,7 @@
     "id": "55987ed9-7dde-4835-93d3-d57ec9bb9851",
     "slug": "mexicana",
     "nombre": "Mexicana",
-    "precio": "7.00",
+    "precio": "5.99",
     "precio_promo": "",
     "categorias": [
       "hamburguesas"
@@ -226,8 +226,8 @@
         "name": "Presentación",
         "options": [
           "Simple",
-          "Doble (+$1.50)",
-          "Triple (+$3.00)"
+          "Doble (+$2.00)",
+          "Triple (+$4.00)"
         ],
         "type": "option"
       },
@@ -257,7 +257,7 @@
     "id": "a4b29b23-5573-4403-b328-daa1c1e92ec9",
     "slug": "mushroom",
     "nombre": "Mushroom",
-    "precio": "6.00",
+    "precio": "4.99",
     "precio_promo": "",
     "categorias": [
       "hamburguesas"
@@ -273,8 +273,8 @@
         "name": "Presentación",
         "options": [
           "Simple",
-          "Doble (+$1.50)",
-          "Triple (+$3.00)"
+          "Doble (+$2.00)",
+          "Triple (+$5.00)"
         ],
         "type": "option"
       },
@@ -304,7 +304,7 @@
     "id": "fa2d44d7-5e30-4781-a382-fb8ec972a7e2",
     "slug": "original-classic",
     "nombre": "Original Classic",
-    "precio": "5.00",
+    "precio": "3.99",
     "precio_promo": "",
     "categorias": [
       "hamburguesas"
@@ -320,8 +320,8 @@
         "name": "Presentación",
         "options": [
           "Simple",
-          "Doble (+$1.50)",
-          "Triple (+$3.00)"
+          "Doble (+$2.00)",
+          "Triple (+$5.00)"
         ],
         "type": "option"
       },
@@ -366,7 +366,7 @@
     "id": "a99955c9-2521-4b69-9259-d449c5b0bef2",
     "slug": "queso-cheddar",
     "nombre": "Queso cheddar",
-    "precio": "0.75",
+    "precio": "0.99",
     "precio_promo": "",
     "categorias": [
       "extras"
@@ -383,7 +383,7 @@
     "id": "7fd87331-9434-41dc-990f-3ef9718d26c9",
     "slug": "tocino",
     "nombre": "Tocino",
-    "precio": "1.25",
+    "precio": "0.99",
     "precio_promo": "",
     "categorias": [
       "extras"
@@ -400,7 +400,7 @@
     "id": "86deba62-7562-4ad5-a36c-89c79adb48d5",
     "slug": "western-bacon",
     "nombre": "Western Bacon",
-    "precio": "6.50",
+    "precio": "4.99",
     "precio_promo": "",
     "categorias": [
       "hamburguesas"
@@ -416,8 +416,8 @@
         "name": "Presentación",
         "options": [
           "Simple",
-          "Doble (+$1.50)",
-          "Triple (+$3.00)"
+          "Doble (+$3.00)",
+          "Triple (+$5.00)"
         ],
         "type": "option"
       },
