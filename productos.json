@@ -164,7 +164,10 @@
       {
         "name": "Acompañamiento",
         "options": [
-          "Sola",
+          {
+            "image": "/producto/classic-cheese/images/classic-cheese-1.webp",
+            "label": "Sola"
+          },
           {
             "image": "/producto/classic-cheese/images/classic-cheese-2.webp",
             "label": "Combo · papas + cola (+$2.50)"
@@ -436,7 +439,10 @@
       {
         "name": "Acompañamiento",
         "options": [
-          "Sola",
+          {
+            "image": "/producto/western-bacon/images/western-bacon-1.webp",
+            "label": "Sola"
+          },
           {
             "image": "/producto/western-bacon/images/western-bacon-2.webp",
             "label": "Combo · papas + cola (+$2.50)"
