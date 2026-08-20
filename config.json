@@ -19,10 +19,10 @@
       {
         "direccion": "Jorge Adoum y Rosa Borja San Juan de Cumbayá",
         "nombre": "Las Hamburguesas del Gordo Paul",
-        "telefono": "+593986131942"
+        "telefono": "+593962672254"
       }
     ],
-    "telefono_principal": "+593986131942"
+    "telefono_principal": "+593962672254"
   },
   "min_days_advance": null,
   "min_units": null,
@@ -32,5 +32,5 @@
   "theme_accent": "#F5B301",
   "theme_primary": "#E4801C",
   "whatsapp_message": "¡Hola Gordo Paul! Quiero hacer un pedido:",
-  "whatsapp_number": "593986131942"
+  "whatsapp_number": "593962672254"
 }
